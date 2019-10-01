@@ -1,0 +1,2 @@
+# SlaterShopifyTheme
+Slater-ShopifyTheme
