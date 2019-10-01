@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "lodash",
+    "syntax-dynamic-import",
+    ['module-resolver', {
+      'root': ['.'],
+      'alias': {
+        'slater': './src/scripts/slater',
+        'components': './src/scripts/components',
+        'lib': './src/scripts/lib',
+        'pages': './src/scripts/pages',
+        'templates': './src/scripts/templates'
+      }
+    }]
+  ],
+  "presets": [
+    "es2015"
+  ]
+}
